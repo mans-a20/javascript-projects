@@ -1,0 +1,33 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  background-image: linear-gradient(to right, red, #ffee00);
+  font-family: sans-serif;
+}
+div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+h1 {
+  padding: 40px 0;
+}
+
+input[type] {
+  width: 250px;
+  height: 20px;
+  margin: 2px 0 15px 0;
+  outline: none;
+}
+button {
+  font-size: 1rem;
+  padding: 3px 10px;
+}
+label {
+  margin-top: 35px;
+}
+h2 {
+  color: #fff;
+}
